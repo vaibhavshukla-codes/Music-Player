@@ -12,24 +12,27 @@
       <div class="container">
          <div class="music-player">
             <nav>
-                <div class="circle">
+                <div class="circle" onclick="prevSong()">
                     <i class="fa-solid fa-angle-left"></i>
                 </div>
-                <div class="circle">
+                <div class="circle" onclick="toggleSongList()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
-            <img src="1.jpg" class="song-img">
-            <h1>Maroon Color Sadiya</h1>
-            <p>Nirahua Lal Yadav</p>
+            <div id="song-list" class="song-list">
+                <!-- Song list will be populated here -->
+            </div>
+            <img src="covers/1.jpg" class="song-img" id="cover-img">
+            <h1 id="song-title">Maroon Color Sadiya</h1>
+            <p id="song-artist">Nirahua Lal Yadav</p>
             <audio id="song">
-                <source src="1.mp3" type="audio/mpeg">
+                <source src="songs/1.mp3" type="audio/mpeg">
             </audio>
             <input type="range" value="0" id="progressbar">
             <div class="controls">
-                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="prevSong()"><i class="fa-solid fa-backward"></i></div>
                 <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
-                <div><i class="fa-solid fa-forward"></i></div>   
+                <div onclick="nextSong()"><i class="fa-solid fa-forward"></i></div>   
             </div>
          </div>
       </div>

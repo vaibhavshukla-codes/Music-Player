@@ -8,15 +8,15 @@ let songList = document.getElementById("song-list");
 
 let songs = [
     { title: "Maroon Color Sadiya", artist: "Nirahua Lal Yadav", src: "songs/1.mp3", cover: "covers/1.jpg" },
-    { title: "Song 2", artist: "Artist 2", src: "songs/2.mp3", cover: "covers/2.jpg" },
-    { title: "Song 3", artist: "Artist 3", src: "songs/3.mp3", cover: "covers/3.jpg" },
-    { title: "Song 4", artist: "Artist 4", src: "songs/4.mp3", cover: "covers/4.jpg" },
+    { title: "One Love", artist: "Shubh", src: "songs/2.mp3", cover: "covers/2.jpg" },
+    { title: "Morni Banke", artist: "Guru Randhawa", src: "songs/3.mp3", cover: "covers/3.jpg" },
+    { title: "Main Tera Boyfriend", artist: "Meet Bros", src: "songs/4.mp3", cover: "covers/4.jpg" },
     { title: "Jeena Jeena", artist: "Atif Aslam", src: "songs/5.mp3", cover: "covers/5.jpg" },
-    { title: "Song 6", artist: "Artist 6", src: "songs/6.mp3", cover: "covers/6.jpg" },
-    { title: "Song 7", artist: "Artist 7", src: "songs/7.mp3", cover: "covers/7.jpg" },
-    { title: "Song 8", artist: "Artist 8", src: "songs/8.mp3", cover: "covers/8.jpg" },
-    { title: "Song 9", artist: "Artist 9", src: "songs/9.mp3", cover: "covers/9.jpg" },
-    { title: "Song 10", artist: "Artist 10", src: "songs/10.mp3", cover: "covers/10.jpg" }
+    { title: "52 Gaj ka Daman", artist: "Renuka Panwar", src: "songs/6.mp3", cover: "covers/6.jpg" },
+    { title: "Never Fold", artist: "Sidhu Moosewala", src: "songs/7.mp3", cover: "covers/7.jpg" },
+    { title: "Blue Eyes", artist: "Honey Singh", src: "songs/8.mp3", cover: "covers/8.jpg" },
+    { title: "Hindi Song", artist: "Arijit Singh", src: "songs/9.mp3", cover: "covers/9.jpg" },
+    { title: "Bhool Bhulaiyaa 3", artist: "Pitbull, Diljit Dosanjh, Neeraj Shridhar", src: "songs/10.mp3", cover: "covers/10.jpg" }
 ];
 
 let currentSongIndex = 0;
